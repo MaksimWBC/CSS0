@@ -1,4 +1,17 @@
 body {
-
+    background-color: #000;
+    border: 5px ridge white;
+    color: white;
 }
 
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
